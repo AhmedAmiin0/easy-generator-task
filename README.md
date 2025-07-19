@@ -337,4 +337,4 @@ pnpm run lint
 |----------|-------------|---------|
 | `VITE_API_URL` | Backend API URL | `http://localhost:3001/api` |
 
-**Happy coding! 🎉**
+**Happy coding! 🎉**# easy-generator-task
