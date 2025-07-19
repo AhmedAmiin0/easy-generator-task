@@ -1,0 +1,21 @@
+{
+  "name": "@easy-generator/types",
+  "version": "0.1.0",
+  "description": "Shared TypeScript types and interfaces for Easy Generator",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "scripts": {
+    "build": "tsc",
+    "dev": "tsc --watch",
+    "clean": "rm -rf dist .turbo",
+    "type-check": "tsc --noEmit",
+    "lint": "echo 'Linting types...' && exit 0"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "typescript": "^5.7.3"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+} 
